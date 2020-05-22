@@ -7,8 +7,16 @@
     overflow-x: hidden;
   }
 
-  
+  .logo{
+    width: 8em;
+    margin-top: .3em;
+    height: 4em;
+    
+  }
 
+  .container{
+    padding-top: 0px;
+  }
 
   /*---------------------------------------
      TYPOGRAPHY              
@@ -401,21 +409,21 @@
   }
 
   .slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
+    background-image: url(../images/6.jpg);
   }
 
   .slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
+    background-image: url(../images/16.jpg);
   }
 
   .slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
+    background-image: url(../images/18.png);
   }
   .slider .item-four {
-    background-image: url(../images/slider-image2.jpg);
+    background-image: url(../images/26.jpg);
   }
   .slider .item-five {
-    background-image: url(../images/slider-image3.jpg);
+    background-image: url(../images/29.jpg);
   }
 
 

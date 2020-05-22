@@ -7,49 +7,7 @@
     overflow-x: hidden;
   }
 
-  
-
-
-  /*---------------------------------------
-     TYPOGRAPHY              
-  -----------------------------------------*/
-
-  h1,h2,h3,h4,h5,h6 {
-    font-weight: bold;
-    line-height: inherit;
-  }
-
-  h1 {
-    color: #252525;
-    font-size: 3em;
-    line-height: 50px;
-  }
-
-  h2 {
-    color: #353535;
-    font-size: 2em;
-    padding-bottom: 10px;
-  }
-
-  h3 {
-    font-size: 1.5em;
-    margin-bottom: 0;
-  }
-
-  h3,
-  h3 a {
-    color: #454545;
-  }
-
-  p {
-    color: #757575;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 24px;
-  }
-
-
-
+ 
   /*---------------------------------------
      GENERAL               
   -----------------------------------------*/
@@ -89,7 +47,7 @@
   }
 
   .section-title h4 {
-    color: #bfbdbd;
+    color: #b2b2b2;
     font-size: 10px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -97,7 +55,7 @@
   }
 
   .overlay {
-    background: rgba(0,0,0,0.5);
+    background:#f0f0f0;
     position: absolute;
     top: 0;
     right: 0;
@@ -131,6 +89,11 @@
   .img-size{
     width: 50px;
     height: 25em;
+  }
+
+  .para{
+    text-align: left;
+    font-size: 15px;
   }
 
 
@@ -345,115 +308,11 @@
     text-transform: uppercase;
     margin: 0;
   }
-
-  @media (min-width: 768px) {
-    .slider .col-md-8 {
-      padding-left: 0;
-    }
+  .logo{
+    width: 8em;
+    margin-top: .3em;
+    height: 4em;
   }
-
-  .slider .owl-dots {
-    position: absolute;
-    top: 50%;
-    right: 2em;
-    justify-content: center;
-  }
-
-  .owl-theme .owl-dots .owl-dot {
-    display: block;
-  }
-
-  .owl-theme .owl-dots .owl-dot span {
-    width: 12px;
-    height: 12px;
-    margin: 7px 10px;
-    border: 2px solid #d9d9d9;
-    background: transparent;
-    display: block;
-    -webkit-backface-visibility: visible;
-    transition: opacity 200ms ease;
-    border-radius: 30px;
-  }
-
-  .owl-theme .owl-dots .owl-dot.activeactive span, .owl-theme .owl-dots .owl-dot:hover span {
-    background-color: #ffffff;
-    border-color: transparent;
-  }
-
-  .slider .caption {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-    background-color: rgba(20,20,20,0.2);
-    height: 100%;
-    color: #fff;
-    cursor: e-resize;
-    padding: 4em 0 0 2em;
-  }
-
-  .slider .item {
-    background-position: inherit;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: cover;
-    height: 650px;
-  }
-
-  .slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
-  }
-
-  .slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
-  }
-
-  .slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
-  }
-  .slider .item-four {
-    background-image: url(../images/slider-image2.jpg);
-  }
-  .slider .item-five {
-    background-image: url(../images/slider-image3.jpg);
-  }
-
-
-
-  .slider .item-second .section-btn {
-    background: #292929;
-  }
-
-  .slider .item-second .section-btn:hover {
-    background: #ffffff;
-  }
-  .slider .item-third .section-btn {
-    background: #292929;
-  }
-
-  .slider .item-third .section-btn:hover {
-    background: #ffffff;
-  }
-  .slider .item-four .section-btn {
-    background: #292929;
-  }
-
-  .slider .item-four .section-btn:hover {
-    background: #ffffff;
-  }
-
-  .slider .item-five .section-btn {
-    background: transparent;
-    border: 1px solid #ffffff;
-  }
-
-  .slider .item-five .section-btn:hover,
-  .slider .item-five .section-btn:focus {
-    background: #ce3232;
-    border-color: transparent;
-    color: #ffffff;
-  }
-
 
 
   /*---------------------------------------
@@ -662,7 +521,7 @@
   -----------------------------------------*/
 
   #testimonial {
-    background: url('../images/testimonial-bg.jpg') center center no-repeat;
+    /* background: url('../images/testimonial-bg.jpg') center center no-repeat; */
     background-size: cover;
   }
 
@@ -690,6 +549,7 @@
   .tst-author h4,
   .tst-author span {
     display: inline;
+
   }
 
   #testimonial p {
@@ -704,19 +564,23 @@
 
   .tst-author h4,
   .tst-author span {
-    color: #b2b2b2;
+    color: #252525;
   }
 
   .tst-author span {
     margin-left: 5px;
   }
 
-
+  .fa-quote-left{
+    
+  }
 
   /*---------------------------------------
       CONTACT             
   -----------------------------------------*/
-
+.contact{
+  margin-top: 5em;
+}
   #contact .section-title {
     padding-bottom: 0;
   }

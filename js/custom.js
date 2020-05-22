@@ -20,8 +20,7 @@
             $(".navbar-fixed-top").removeClass("top-nav-collapse");
           }
     });
-
-
+    
     // SLIDER
     $('.owl-carousel').owlCarousel({
       animateOut: 'fadeOut',
